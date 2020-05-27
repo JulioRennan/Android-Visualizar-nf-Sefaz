@@ -1,0 +1,26 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#000000</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="txt_inicio">
+        <item name="android:textSize">50sp</item>
+       <item name="android:layout_width">369dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="fontFamily">@font/aguafina_script</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="NavigationItemAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:fontFamily">@font/bungee</item>
+    </style>
+</resources>

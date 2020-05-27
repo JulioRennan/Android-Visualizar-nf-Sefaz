@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961763232234",
+    "firebase_url": "https://scanner-notas.firebaseio.com",
+    "project_id": "scanner-notas",
+    "storage_bucket": "scanner-notas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961763232234:android:974abf5356f97c3974ca93",
+        "android_client_info": {
+          "package_name": "primeiropp.studio.com.escannner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961763232234-ripepogikve1bjign34bh1krqvv4lqjc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "primeiropp.studio.com.escannner",
+            "certificate_hash": "9a120dd6234908f8ccb82da0dbe1ccb5f15eb341"
+          }
+        },
+        {
+          "client_id": "961763232234-h80h2spk80vkeje8mnottht3dd5pvjhk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1CXrrzGSeUNdu6U192lTdL39V1Q-m2Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961763232234-h80h2spk80vkeje8mnottht3dd5pvjhk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

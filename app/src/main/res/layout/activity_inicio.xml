@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background ="@drawable/txtinicio"
+    tools:context=".Inicio">
+
+    <TextView
+        android:id="@+id/txt_marie"
+
+        style="@style/txt_inicio"
+
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Marie"
+        app:drawableTint="#FFFFFF"
+        app:fontFamily="@font/aguafina_script"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_uamazon"
+        style="@style/txt_inicio"
+        android:text="Uamazon"
+        app:drawableTint="#FFFFFF"
+        app:fontFamily="@font/aguafina_script"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_marie"
+        app:layout_constraintVertical_bias="0.0"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_kendjam"
+        style="@style/txt_inicio"
+        android:text="Kendjam"
+
+        app:fontFamily="@font/aguafina_script"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_uamazon"
+        app:layout_constraintVertical_bias="0.0"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_pirarucu"
+        style="@style/txt_inicio"
+        android:text="Pirarucu"
+        app:fontFamily="@font/aguafina_script"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_kendjam"
+        app:layout_constraintVertical_bias="0.0"
+        app:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/txt_Xingu"
+        style="@style/txt_inicio"
+
+        android:text="Xingu"
+        app:fontFamily="@font/aguafina_script"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_pirarucu"
+        app:layout_constraintVertical_bias="0.012"
+        app:textAllCaps="false" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
